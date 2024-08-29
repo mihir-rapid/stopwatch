@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #1E201E;
+    color: #F5F7F8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.nav {
+    width: 1200px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32px;
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.stopwatch-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    padding: 128px;
+    border-radius: 24px;
+}
+
+.stopwatch h1 {
+    font-size: 64px;
+}
+
+.stopwatch h2 {
+    font-size: 64px;
+}
+
+#display {
+    margin-top: 50px;
+}
+
+.buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 12px;
+    font-size: 24px;
+    width: 125px;
+    border-radius: 12px;
+    outline: none;
+    cursor: pointer;
+}
+
+#start {
+    background-color: green;
+    color: white;
+}
+
+#stop {
+    background-color: red;
+    color: white;
+}
+
+#resume {
+    background-color: rgb(191, 191, 14);
+    color: white;
+}
+
+#reset {
+    background-color: orange;
+    color: white;
+}
+
+#start:hover {
+    background-color: rgba(0, 128, 0, 0.667);
+    color: white;
+}
+
+#stop:hover {
+    background-color: rgba(255, 0, 0, 0.729);
+    color: white;
+}
+
+#resume:hover {
+    background-color: rgba(191, 191, 14, 0.684);
+    color: white;
+}
+
+#reset:hover {
+    background-color: rgba(255, 166, 0, 0.758);
+    color: white;
+}
